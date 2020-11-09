@@ -7,12 +7,15 @@
         <Label Text="Welcome to Bethany's Pie Shop"
                FontSize="14"
                HorizontalTextAlignment="Center" 
-               VerticalOptions="CenterAndExpand"/>
-
+               VerticalOptions="CenterAndExpand"
+               />
+        
         <Button Text="Click me and start the magic" 
                 HorizontalOptions="Center"
                 Margin="10"
                 VerticalOptions="CenterAndExpand"
+                x:Name="DemoButton"
+                Clicked="DemoButton_Clicked"
                 />
     </StackLayout>
 

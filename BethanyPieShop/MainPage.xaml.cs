@@ -14,5 +14,10 @@ namespace BethanyPieShop
         {
             InitializeComponent();
         }
+
+        private void DemoButton_Clicked(object sender, EventArgs e)
+        {
+            (sender as Button).Text = "I was clicked";
+        }
     }
 }
